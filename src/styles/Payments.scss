@@ -1,0 +1,20 @@
+@import '@constants/colors.scss';
+@import '@constants/media.scss';
+@import '@constants/typography.scss';
+
+.payments-page {
+    .payments-button-wrapper {
+        display: flex;
+        justify-content: end;
+        margin-bottom: 1rem;
+        flex-wrap: wrap;
+        gap: 1rem;
+
+        @media (max-width: $large-screen) {
+            justify-content: start;
+            margin-top: 0.5rem;
+        }
+    }
+
+    // Fee status colors
+}
