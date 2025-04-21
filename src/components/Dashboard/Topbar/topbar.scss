@@ -1,0 +1,23 @@
+@import '@constants/colors.scss';
+@import '@constants/typography.scss';
+
+.top-nav-title {
+    padding: 0px 25px;
+    .sub-title {
+        color: $light-info-color;
+        text-transform: capitalize;
+    }
+    .main-title {
+        margin-bottom: 2rem;
+    }
+}
+
+.menue-toggler-wrapper {
+    padding: 0px 8px;
+    .menu-toggler {
+        background-color: transparent;
+        color: $dark-color;
+        border: 0px;
+        font-size: 18px;
+    }
+}
